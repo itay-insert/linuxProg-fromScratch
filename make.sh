@@ -6,4 +6,6 @@ gcc -ffreestanding -fno-stack-protector \
 
 ld -o hello -T link.ld *.o
 
+
+
 rm *.o
